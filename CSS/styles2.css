@@ -1,0 +1,83 @@
+body{
+	background-image: url("http://news.worldcasinodirectory.com/wp-content/uploads/2015/02/damask-1920x1200-62.jpg");
+	font-family: 'Inknut Antiqua', serif;
+}
+
+h1{
+	font-size: 80px;
+	color: white;
+	text-align: center;
+}
+
+img{
+	max-width: 100%;
+	max-height: 120px;
+}
+
+.dealer-total, .player-total{
+	font-size: 20px;
+	color: white;
+	padding-bottom: 15px;
+}
+
+.the-table{
+	height: 550px;
+	background-image: url("https://betclick.hs.llnwd.net/e1/pict/Casino/06_Backgrounds/lucky_8_line.jpg");
+	/* background-color: #277714; */
+	border: 5px solid #3f2a14;
+	border-bottom: 30px solid #3f2a14;
+	padding: 30px 0px;
+	margin-top: 50px;
+	border-radius: 10px 10px 50% 50%;
+	transform: perspective(70em) rotateX(35deg);
+}
+
+/* .dealer-hand-wrapper{
+	border: 5px dashed #f46f92;
+}
+
+.player-hand-wrapper{
+	border: 5px dashed #146ff2;
+} */
+
+.card{
+	height: 120px;
+	/* background-color: #277714; */
+	/* border: #277714 10px solid; */
+	margin:  10px;
+	width: 12.6%;
+	float: left;
+
+}
+
+.dealer-cards{
+	transform: scaleX(-1);
+	float: left;
+}
+
+.btn{
+	background-color: #b60016;
+	border: 2px solid white;
+	padding: 10px;
+	width: 70px;
+	color: white;
+}
+
+.btn:hover{
+	font-size: 15px;
+	color: white;
+	/* border: 5px; */
+	border: 4px solid #ffd358;
+	
+}
+
+.message{
+	color: #ffd358;
+	text-align: center;
+	padding-top: 15px;
+
+}
+
+
+
+
